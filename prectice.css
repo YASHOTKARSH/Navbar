@@ -1,0 +1,45 @@
+    *{
+    margin: 0;
+    padding: 0;
+  font-family: "Poppins", sans-serif;
+    }
+
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        height: 45px;
+        background-color: #0c5423;
+        padding: 0 4rem;
+        color: white;
+        font-weight: 300;
+    }
+
+    nav{
+      /* border: 1px solid; */
+      display: flex;
+      justify-content: space-between;
+      margin: 0 5rem;
+      background-color: rgb(255, 255, 255);
+      
+    }
+    nav ul{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      list-style-type: none;
+    }
+    nav a{
+      text-decoration: none;
+      color: #b30a0a;
+      font-weight: 400;
+      
+    }
+
+    #search{
+        padding: .5rem;
+        width: 150px;
+        border-radius: 6px;
+        border: 1px solid;
+        text-align: center;
+    }
